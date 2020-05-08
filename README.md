@@ -24,7 +24,7 @@ There are timing issues with the current Scurve blocks in tandum with microblaze
 [PYNQ-Z1](https://store.digilentinc.com/pynq-z1-python-productivity-for-zynq-7000-arm-fpga-soc/)  
 [NEXYS4 DDR](https://reference.digilentinc.com/reference/programmable-logic/nexys-4-ddr/start)    
 MPU6050 accelerometer  
-stepper motor (4209L-01DE-RO)  
+[stepper motor (4209L-01DE-RO)](4209L-01DE-RO%20datasheet.pdf)  
 stepper motor driver (A4988)  
 Pmod USBUART: USB to UART Interface  
 Custom hardware platform for motion profile test   
