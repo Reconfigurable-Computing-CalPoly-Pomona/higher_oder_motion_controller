@@ -36,8 +36,8 @@ Hao Luc: Electrical and Computer Engineering department, College of Engineering,
 Spencer D. Moore: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. sdmoore@cpp.edu  
 John Alexis S. Villegas: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. jsvillegas@cpp.edu   
 
-# Advisor
-Dr. Mohamed El-Hadedy: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. mealy@cpp.edu 
+- **Mohamed El-Hadedy**: Assistant Professor, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
+
 ### Collaborators
 
 1. **Wen-Mei Hwu**: Director of Center for Cognitive Computing Systems Research and Walter J. Sanders III-AMD Endowed Chair Professor in Elecrical and Computer Engineering at UIUC
