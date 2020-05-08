@@ -30,11 +30,11 @@ Pmod USBUART: USB to UART Interface
 Custom hardware platform for motion profile test   
 
 # Members:
-Brian Tapia: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. btapia@cpp.edu  
-Bryan J. Banta: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. bjbanta@cpp.edu   
-Hao Luc: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. hpluc@cpp.edu   
-Spencer D. Moore: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. sdmoore@cpp.edu  
-John Alexis S. Villegas: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. jsvillegas@cpp.edu   
+- **Brian Tapia**: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. btapia@cpp.edu  
+- **Bryan J. Banta**: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. bjbanta@cpp.edu   
+- **Hao Luc**: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. hpluc@cpp.edu   
+- **Spencer D. Moore**: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. sdmoore@cpp.edu  
+- **John Alexis S. Villegas**: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. jsvillegas@cpp.edu   
 
 ### Supervising Professor
 - **Mohamed El-Hadedy**: Assistant Professor, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
