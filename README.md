@@ -38,6 +38,12 @@ John Alexis S. Villegas: Electrical and Computer Engineering department, College
 
 # Advisor
 Dr. Mohamed El-Hadedy: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. mealy@cpp.edu 
+### Collaborators
+
+1. **Wen-Mei Hwu**: Director of Center for Cognitive Computing Systems Research and Walter J. Sanders III-AMD Endowed Chair Professor in Elecrical and Computer Engineering at UIUC
+
+2. **Jinjun Xiong**: Director of Center for Cognitive Computing Systems Research and Adjunct Research Professor at UIUC
+
 
 For more information the report and presentation for this project will also be attached
 
