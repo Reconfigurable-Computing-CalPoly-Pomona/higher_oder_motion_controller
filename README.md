@@ -36,6 +36,7 @@ Hao Luc: Electrical and Computer Engineering department, College of Engineering,
 Spencer D. Moore: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. sdmoore@cpp.edu  
 John Alexis S. Villegas: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. jsvillegas@cpp.edu   
 
+### Supervising Professor
 - **Mohamed El-Hadedy**: Assistant Professor, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
 
 ### Collaborators
