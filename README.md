@@ -21,7 +21,7 @@ Microblaze Setup with Scurve for PYNQ
 There are timing issues with the current Scurve blocks in tandum with microblaze but removing the blocks to test a simple helloworld program will confirm that microblaze is implimemented correctly. Inside the microblaze folders will also be a workspace folder than contains the code that reads and writes to the assigned registers in the Scurve_axi blocks in the microblaze diagram.
 
 # Equipment 
-PYNQ-Z1(https://store.digilentinc.com/pynq-z1-python-productivity-for-zynq-7000-arm-fpga-soc/)
+[PYNQ-Z1](https://store.digilentinc.com/pynq-z1-python-productivity-for-zynq-7000-arm-fpga-soc/)
 NEXYS4 DDR  
 MPU6050 accelerometer  
 stepper motor (4209L-01DE-RO)  
