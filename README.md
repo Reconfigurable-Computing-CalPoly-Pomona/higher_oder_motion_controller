@@ -41,7 +41,7 @@ Dr. Mohamed El-Hadedy: Electrical and Computer Engineering department, College o
 
 For more information the report and presentation for this project will also be attached
 
-**Project Sponsors:**
+# Project Sponsors 
 
 1. **[Xilinx Inc.](https://www.xilinx.com/)**
 
