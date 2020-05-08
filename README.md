@@ -30,56 +30,21 @@ Pmod USBUART: USB to UART Interface
 Custom hardware platform for motion profile test   
 
 # Members:
-Brian Tapia  
-
-ECE: Electrical & Computer Engineering 
-
-Pomona, CA, United States of America 
-
-btapia@cpp.edu 
-
-Bryan J. Banta  
-
-ECE: Electrical & Computer Engineering 
-
-Pomona, CA, United States of America 
-
-bjbanta@cpp.edu 
-
-Hao Luc  
-
-ECE: Electrical & Computer Engineering 
-
-Pomona, CA, United States of America 
-
-hpluc@cpp.edu 
-
-Spencer D. Moore 
-
-ECE: Electrical & Computer Engineering 
-
-Pomona, CA, United States of America 
-
-sdmoore@cpp.edu 
-
-John Alexis S. Villegas  
-
-ECE: Electrical & Computer Engineering 
-
-Pomona, CA, United States of America 
-
-jsvillegas@cpp.edu 
+Brian Tapia: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. btapia@cpp.edu 
+Bryan J. Banta: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. bjbanta@cpp.edu 
+Hao Luc: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. hpluc@cpp.edu 
+Spencer D. Moore: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. sdmoore@cpp.edu 
+John Alexis S. Villegas: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. jsvillegas@cpp.edu 
 
 # Advisor
-Dr. Mohamed El-Hadedy 
-
-ECE: Electrical & Computer Engineering 
-
-Pomona, CA, United States of America 
-
-mealy@cpp.edu 
+Dr. Mohamed El-Hadedy: Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona. mealy@cpp.edu 
 
 For more information the report and presentation for this project will also be attached
 
-# Special thanks
-Xilinx
+**Project Sponsors:**
+
+1. **[Xilinx Inc.](https://www.xilinx.com/)**
+
+2. **[IBM](https://www.ibm.com)**
+
+3. **[IBM-Illinois Center for Cognitive Computing Systems Research](https://www.c3sr.com/)**
