@@ -12,11 +12,11 @@ Currently we have tested the S curve motion profile idenpendantly on both a PYNQ
 To implement the common platform we utilize Microblaze allong with the Xillinx SDA in order to sent user input from the terminal into the block. As the project gets improved there can be more and improved user functionality with the Scurve code such as feed back from peripherals and more motion profile selections
 
 <p align="center">
-<img src="https://github.com/Reconfigurable-Computing-CalPoly-Pomona/higher_oder_motion_controller/images/MB_Block_diagram.PNG"> 
+<img src="https://github.com/Reconfigurable-Computing-CalPoly-Pomona/higher_oder_motion_controller/blob/master/images/MB_Block_diagram.PNG"> 
 
 
 <p align="center">
-<img src="https://github.com/Reconfigurable-Computing-CalPoly-Pomona/higher_oder_motion_controller/images/Motor_Schematic.PNG"> 
+<img src="https://github.com/Reconfigurable-Computing-CalPoly-Pomona/higher_oder_motion_controller/blob/master/images/Motor_Schematic.PNG"> 
 
 # Current issues
 There are timing issues with the current Scurve blocks in tandum with microblaze but removing the blocks to test a simple helloworld program will confirm that microblaze is implimemented correctly. Inside the microblaze folders will also be a workspace folder than contains the code that reads and writes to the assigned registers in the Scurve_axi blocks in the microblaze diagram.
