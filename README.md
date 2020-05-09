@@ -3,26 +3,28 @@
 The objective of our project to implement higher S-curve motion profiles on a common platform so that we can have on unified device that can cycle through the desired order of movement depending on the aplication needs. There are many choices on the market but they are often very specialized and application specific. Therefore, a user with multiple motion controller needs must work with various different products instead of one common platform. 
 
 # Introduction to S-curve 
-In order to give control to the user, we implemented  implement a custom interface throught the Xillinx SDK to a microblaze processor that enable the user to input the desired order, direction, and distances. Those values are then sent to the slave registers of our AXI interface that correspond to the appropriate data input of our S curve module.
+S-curve motion profiling is a way to control the acceleration of a payload in such a way to help smooth the motion and reduce the possibility of exciting a vibration in the system. The purpose of high order scurve profiles is to minimize jerk, the change in acceleration, upon the target payload. This means for delecate operations, acceleration of the payload should be low as possible in order to preserve smoothness on the system. The opposite is true when the target application is needed to read its peak velocity as quick as possible, regardless of vibration on the payload. 
+
+There is a more in-depth look into S-curve on the ReadMe file of the Scurve folder.
 <p align="center">
 <img src="https://github.com/Reconfigurable-Computing-CalPoly-Pomona/higher_oder_motion_controller/blob/master/images/S_curve_diagram.PNG"> 
 
 # Scurve and Microblaze overview design 
+In order to give control to the user, we implemented  implement a custom interface throught the Xillinx SDK to a microblaze processor that enable the user to input the desired order, direction, and distances. Those values are then sent to the slave registers of our AXI interface that correspond to the appropriate data input of our S curve module.
+
 Our Scurve code is split up into two sections, one block to calculate the frequency output for x and y movement of ste
 Currently we have tested the S curve motion profile idenpendantly on both a PYNQ-Z1 and NEXYS4 DDR FPGA board. The sections of code included in this repository will be for calculating the required output frequency, sending the pulse, and the communication between the AXI bus and the microblaze processor. 
 
-To implement the common platform we utilize Microblaze allong with the Xillinx SDA in order to sent user input from the terminal into the block. As the project gets improved there can be more and improved user functionality with the Scurve code such as feed back from peripherals and more motion profile selections
-
-
-
 <p align="center">
 <img src="https://github.com/Reconfigurable-Computing-CalPoly-Pomona/higher_oder_motion_controller/blob/master/images/MB_Block_diagram.PNG"> 
-
+  
+To implement the common platform we utilize Microblaze allong with the Xillinx SDA in order to sent user input from the terminal into the block. As the project gets improved there can be more and improved user functionality with the Scurve code such as feed back from peripherals and more motion profile selections
 
 <p align="center">
 <img src="https://github.com/Reconfigurable-Computing-CalPoly-Pomona/higher_oder_motion_controller/blob/master/images/Motor_Schematic.PNG"> 
   
 The schematic to wire the stepper motor driver to the fpga PMOD and the motor to the driver is shown. There is a 100uF capacitor attached to the voltage supply that is supplying 15 volts to the motor. The Vref from the driver is set to about 0.8 Volts to set the maximum current going into the driver. This schematic is shown to power and control an individual motor; therefore, you will need to do this for type of set up for additional motors. The motor was configured in a bipolar series connection. 
+
 # Current issues
 There are timing issues with the current Scurve blocks in tandum with microblaze but removing the blocks to test a simple helloworld program will confirm that microblaze is implimemented correctly. Inside the microblaze folders will also be a workspace folder than contains the code that reads and writes to the assigned registers in the Scurve_axi blocks in the microblaze diagram.
 
