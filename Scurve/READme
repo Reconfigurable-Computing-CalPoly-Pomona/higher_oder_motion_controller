@@ -1,1 +1,64 @@
+How the S-Curve works
 
+
+There is no one S-Curve. In this project multiple orders of S-Curves were implemented.
+These curves get their name since they lack sharp turns, as seen in trapezoidal, or square
+wave forms. 
+
+Each implementation of an S-Curve in this project is specifically refering to the 
+velocity as a function of time waveform, unless said otherwise. The velocity waveform
+was selected because the electrical control signal being sent to the stepper motor
+is directly translated into radial velocity. 
+
+The stepper motor in this project drives the gears of a belt. On the belt is a platform.
+The position of the platform can be manipulated by controlling the velocity of the 
+motor. In order to command the platform to move a specified distance, the motor needs
+to actuate. 
+
+Suppose it was desired to move the platform a distance of 1 meter. If the motor were to 
+instantaneously reach a velocity of 1 meter per second and operate at that velocity for
+one second and then instantaneously stop moving, then it would have traveled the meter
+distance. The velocity of the platform can be plotted on an XY plane, with velocity
+on the Y-axis and time on the X-axis. The shape of the function would be a square or
+rectangle. There would be very sharp (90 degree) transitions from running at 1 m/s to
+0 m/s. This waveform can be diffentiated to produce the accelration versus time 
+waveform. Since the velocity graph was a squre, it can be represented as a step function
+at the transition from 0 to 1 m/s velocity at time zero and as a step down function from 1 
+to 0 m/s velocity at a time of 1 second. The derivative of a step function is a Dirac 
+delta function, therefore the acceleration waveform is composed of a positive Dirac delta 
+at time zero and a negative Dirac delta at time of 1 second. The problem with this model
+is that force is the product of mass and acceleration, therefore when the acceleration
+waveform contains instantaneous transitions then the physical system will be adversely 
+effected. These effects are primarily residual vibrations.
+
+A square waveform for the velocity function is not physically possible. The motor cannot
+intantaneously transition from a resting position to a high velocity. The motor has to
+build up to that velocity. If the transition from 0 velocity to the desired velocity was 
+linear then the velocity waveform would be trapezoidal. There would be linear growth, 
+followed by the constant desired velocity followed by a downward linear period. Then if 
+this waveform were differnetiated it would be found that the acceleration waveform would
+be a positeve square followed by zero acceleration followed by a negative square. If then,
+the acceleration waveform were differentiated, then the jerk waveform would be produced. In 
+this scenario, where velocity is a trapezoidal form, then jerk would be characterized by a 
+series of Dirac delta pulses. The series would be positive pulse, space, negative pulse, 
+space, negative pulse, space, positive pulse. This model shows an improvement fromthe square
+waveform in the velocity function as seen before, since there is less instantaneous change in
+acceleration. 
+
+The S-Curve is similar to the square waveform and the trapezoidal waveform. For an object to
+move on a direct path from some initial position to some final position, it must aquire some
+velocity and lose that velocity to stop. In order to aquire velocity it must accelerate and 
+decelerate, to lose the velocity it must decelerate and accelerate. Acceleration is produced 
+by jerk, jerk by snap, snap by crackle, crackle by pop, and so on and so forth. Each 
+derivative oscillates polarity twice as much as its integral. Therefore by following the
+pattern of the square and trapezoidal waveforms, an S-curve can be formed by assigning a
+series of Dirac pulses to the snap as a function of time waveform. When this snap waveform is
+integrated, the jerk function becomes a series of squre waves. Integrating jerk reveals that
+acceleration is a trapezoidal wave followed by a negative trapezoidal wave. When acceleration
+is integrated, an S-curve is produced. This is because the linear phase of the trapezoid when
+integrated becomes a parabolic function, the constant portion becomes a linear ramp, and so on.
+
+This model can then be further expanded. The next order s-curve would be produced by assigning 
+the series of Dirac pulses to the next lower differentiation. Since snap was assigned the 
+Dirac pulses last, it would be crackle that would get them this time. This trend can be continued
+indefinitely.
