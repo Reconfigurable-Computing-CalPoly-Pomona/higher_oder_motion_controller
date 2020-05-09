@@ -13,7 +13,7 @@ Currently we have tested the S curve motion profile idenpendantly on both a PYNQ
 
 To implement the common platform we utilize Microblaze allong with the Xillinx SDA in order to sent user input from the terminal into the block. As the project gets improved there can be more and improved user functionality with the Scurve code such as feed back from peripherals and more motion profile selections
 
-The schematic to wire the stepper motor driver to the fpga PMOD and the motor to the driver is shown. There is a 100uF capacitor attached to the voltage supply that is supplying 15 volts to the motor. The Vref from the driver is set to about 0.8 Volts to set the maximum current going into the driver. This schematic is shown to power and control an individual motor; therefore, you will need to do this for type of set up for additional motors. The motor was configured in a bipolar series connection. 
+
 
 <p align="center">
 <img src="https://github.com/Reconfigurable-Computing-CalPoly-Pomona/higher_oder_motion_controller/blob/master/images/MB_Block_diagram.PNG"> 
@@ -21,7 +21,8 @@ The schematic to wire the stepper motor driver to the fpga PMOD and the motor to
 
 <p align="center">
 <img src="https://github.com/Reconfigurable-Computing-CalPoly-Pomona/higher_oder_motion_controller/blob/master/images/Motor_Schematic.PNG"> 
-
+  
+The schematic to wire the stepper motor driver to the fpga PMOD and the motor to the driver is shown. There is a 100uF capacitor attached to the voltage supply that is supplying 15 volts to the motor. The Vref from the driver is set to about 0.8 Volts to set the maximum current going into the driver. This schematic is shown to power and control an individual motor; therefore, you will need to do this for type of set up for additional motors. The motor was configured in a bipolar series connection. 
 # Current issues
 There are timing issues with the current Scurve blocks in tandum with microblaze but removing the blocks to test a simple helloworld program will confirm that microblaze is implimemented correctly. Inside the microblaze folders will also be a workspace folder than contains the code that reads and writes to the assigned registers in the Scurve_axi blocks in the microblaze diagram.
 
