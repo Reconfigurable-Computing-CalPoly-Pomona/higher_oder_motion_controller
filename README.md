@@ -32,9 +32,9 @@ There are timing issues with the current Scurve blocks in tandum with microblaze
 [PYNQ-Z1](https://store.digilentinc.com/pynq-z1-python-productivity-for-zynq-7000-arm-fpga-soc/)  
 [NEXYS4 DDR](https://reference.digilentinc.com/reference/programmable-logic/nexys-4-ddr/start)    
 [MPU6050 accelerometer](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/)   
-[stepper motor (4209L-01DE-RO)](4209L-01DE-RO%20datasheet.pdf)  
-[stepper motor driver (A4988)](A4988.pdf)  
-[Pmod USBUART: USB to UART Interface](pmodusbuart_rm.pdf)  
+[stepper motor (4209L-01DE-RO)](PartsList/4209L-01DE-RO%20datasheet.pdf)  
+[stepper motor driver (A4988)](PartsList/A4988.pdf)  
+[Pmod USBUART: USB to UART Interface](PartsList/pmodusbuart_rm.pdf)  
 [Tekpower TP3005T Variable Linear DC Power Supply, 0-30V @ 0-5A with Alligator Test Leads ](https://tekpower.us/tp3003t-tp3005t-tp5003tmanual.html )  
 Custom hardware platform for motion profile testing  
 
